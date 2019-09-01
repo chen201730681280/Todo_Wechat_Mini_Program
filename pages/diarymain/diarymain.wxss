@@ -1,0 +1,106 @@
+
+/**index.wxss**/
+
+.picture{
+  width:100;
+}
+
+.container{
+  background-color: white;
+}
+
+.banner{
+  width:100vw;
+}
+
+.touch-item {
+
+  font-size: 14px;
+  display:flex;
+  justify-content: space-between;
+  border-bottom:1px solid #ccc;
+  width: 100%;
+  overflow: hidden;
+  }
+
+ .show {
+width:75%;
+
+padding:10px;
+
+line-height:22px;
+
+-webkit-transition:all 0.4s;
+
+transition:all 0.4s;
+
+margin-left:-50px;
+
+-webkit-transform:translateX(90px);
+
+transform:translateX(90px);
+
+display: -webkit-box; 
+word-break: break-all;
+text-overflow: ellipsis; 
+font-size: 28rpx;
+overflow: hidden; 
+-webkit-box-orient: vertical;
+-webkit-line-clamp:20;
+
+ display: flex;
+  flex-direction: column;
+ 
+ }
+
+ .del {
+  background-color: lightcoral;
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  -webkit-transform: translateX(90px);
+  transform: translateX(90px);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+ }
+ 
+
+
+ .touch-move-active .show,
+ .touch-move-active .del {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+ }
+
+/*.date {
+
+  font-size: 16px;
+
+  background-color: lightslategray;
+
+}
+
+.scrollArea {
+
+  height: 400px;
+
+}*/
+
+.write-btn {
+
+  border-radius:15px;
+
+  background-color:lightcoral;
+
+  color: #fff;
+
+  position: fixed;
+
+  width: 100%;
+
+  bottom: 0;
+}
+

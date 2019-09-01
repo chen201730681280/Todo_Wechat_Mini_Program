@@ -1,0 +1,17 @@
+<!--pages/start/start.wxml-->
+<text>pages/start/start.wxml</text>
+<view class="container">
+<view class="image">
+<image class="img" src="../../image/start3.jpg">
+</image>
+</view>
+
+
+<view class="btn">
+<button class="btn1" bindtap="gotodolist" >TO-DO List
+</button>
+<button class="btn2" bindtap="diarymain">Diary
+</button>
+</view>
+
+</view>

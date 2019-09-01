@@ -1,0 +1,74 @@
+.contain {
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+Page{
+ background-color: white;
+}
+
+.img{
+   height:100vh;
+  width:100vw;
+}
+.section {
+
+    border: 1px solid #eee;
+
+    width: 90%;
+
+    margin: 20px auto;
+
+    border-radius: 5px;
+
+    box-shadow: 0 0 3px #eee;
+
+    /*display: flex;
+
+    flex-direction:column;*/
+
+}
+
+.head {
+
+    width: 100%;
+
+    height: 40px;
+
+    text-align: center;
+
+    border-bottom: 1px solid #eee;
+
+    display: block;
+
+    line-height: 40px;
+
+}
+
+
+.input-content {
+
+    display: block;
+
+    height: 100px;
+
+    padding: 5px;
+
+}
+
+.publish-btn {
+
+    width: 90%;
+
+    margin-top: 20px;
+
+    color:#fff;
+
+    background-color: lightskyblue;
+
+    border-radius: 10px;
+
+}

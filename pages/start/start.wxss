@@ -1,0 +1,53 @@
+/* pages/start/start.wxss */
+.btn{
+  position:fixed;
+  bottom:0;
+  display:flex;
+  direction: block;
+  width:100vw;
+}
+
+.container{
+  background-color: white;
+}
+
+.btn1{
+
+  background-color:white;
+
+  color: black;
+
+  position: fixed;
+
+  left:0;
+  width:50%;
+  bottom: 0;
+}
+
+.btn2{
+
+  background-color:white;
+
+  color: black;
+
+  position: fixed;
+
+  right:0;
+  width:50%;
+  bottom: 0;
+}
+
+.image{
+  top:0;
+  display:flex;
+  position:fixed;
+  width:100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.img{
+  height:500px;
+  display:flex;
+  bottom:0
+}

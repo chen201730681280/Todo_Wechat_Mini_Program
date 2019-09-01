@@ -1,0 +1,18 @@
+
+<view class="contain">
+
+  <view>{{logs}}
+  </view>
+
+    <view class="section">
+
+        <text class="head">日记内容</text>
+
+        <textarea class="input-content" bindinput="bindContent" placeholder="内容" auto-focus>
+        </textarea>
+
+    </view> 
+
+</view>
+
+<button class="publish-btn" bindtap="save">保存随文</button>

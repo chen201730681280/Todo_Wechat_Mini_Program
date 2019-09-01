@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/index/index",
+    "pages/write/write",
+    "pages/diarymain/diarymain"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "Start My Day",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
